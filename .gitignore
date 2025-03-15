@@ -1,0 +1,8 @@
+target/
+logs/
+test-output/
+.settings/
+.git/
+.project
+.classpath
+

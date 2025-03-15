@@ -1,0 +1,565 @@
+2025-03-15 11:33:16 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 11:33:16 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 11:33:16 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 11:33:18 [main] INFO  com.api.listerner.TestListener - Test Passed!
+2025-03-15 11:33:18 [main] INFO  com.api.listerner.TestListener - Test Suite completed!
+2025-03-15 12:23:33 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 12:23:33 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 12:23:33 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 12:23:35 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+2025-03-15 12:23:35 [main] INFO  com.api.filters.LoggingFilter - Headers:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 15 Mar 2025 06:53:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-03-15 12:23:35 [main] INFO  com.api.filters.LoggingFilter - PayLoad:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXR5YXBhbGlpdEBnbWFpbC5jb20iLCJpYXQiOjE3NDIwMjE2MTYsImV4cCI6MTc0MjAyNTIxNn0.gOFo7FPDfCfE8zz0yUqZU6Usqpv6DF1zfQ3R09eGMf0",
+    "type": "Bearer",
+    "id": 387,
+    "username": "satyapaliit@gmail.com",
+    "email": "satyapaliit@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-03-15 12:23:36 [main] INFO  com.api.listerner.TestListener - Test Passed!
+2025-03-15 12:23:36 [main] INFO  com.api.listerner.TestListener - Test Suite completed!
+2025-03-15 12:32:41 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 12:32:41 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 12:32:41 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 12:32:43 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+2025-03-15 12:32:43 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:32:43 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 15 Mar 2025 07:02:43 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-03-15 12:32:43 [main] INFO  com.api.filters.LoggingFilter - 
+Response
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:32:43 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXR5YXBhbGlpdEBnbWFpbC5jb20iLCJpYXQiOjE3NDIwMjIxNjMsImV4cCI6MTc0MjAyNTc2M30.6MWEkY73R5-Q0rane-ScA5HH02I_T_3kjS3B4y2v5AI",
+    "type": "Bearer",
+    "id": 387,
+    "username": "satyapaliit@gmail.com",
+    "email": "satyapaliit@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-03-15 12:32:43 [main] INFO  com.api.listerner.TestListener - Test Passed!
+2025-03-15 12:32:43 [main] INFO  com.api.listerner.TestListener - Test Suite completed!
+2025-03-15 12:35:41 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 12:35:41 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 12:35:41 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 12:35:43 [main] INFO  com.api.filters.LoggingFilter - URL:http://64.227.160.186:8080
+2025-03-15 12:35:43 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:35:43 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+2025-03-15 12:35:43 [main] INFO  com.api.filters.LoggingFilter - 
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:35:43 [main] INFO  com.api.filters.LoggingFilter - Method:POST
+2025-03-15 12:35:43 [main] INFO  com.api.filters.LoggingFilter - 
+Payload
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:35:43 [main] INFO  com.api.filters.LoggingFilter - {"username":"Satyapaliit@gmail.com","password":"Satyapal@1"}
+2025-03-15 12:36:04 [main] ERROR com.api.listerner.TestListener - Test Failed!
+2025-03-15 12:36:04 [main] INFO  com.api.listerner.TestListener - Test Suite completed!
+2025-03-15 12:36:20 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 12:36:20 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 12:36:20 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 12:36:23 [main] INFO  com.api.filters.LoggingFilter - URL:http://64.227.160.186:8080
+2025-03-15 12:36:23 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:36:23 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+2025-03-15 12:36:23 [main] INFO  com.api.filters.LoggingFilter - 
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:36:23 [main] INFO  com.api.filters.LoggingFilter - Method:POST
+2025-03-15 12:36:23 [main] INFO  com.api.filters.LoggingFilter - 
+Payload
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:36:23 [main] INFO  com.api.filters.LoggingFilter - {"username":"Satyapaliit@gmail.com","password":"Satyapal@1"}
+2025-03-15 12:36:24 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+2025-03-15 12:36:24 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:36:24 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 15 Mar 2025 07:06:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-03-15 12:36:24 [main] INFO  com.api.filters.LoggingFilter - 
+Response
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:36:24 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXR5YXBhbGlpdEBnbWFpbC5jb20iLCJpYXQiOjE3NDIwMjIzODQsImV4cCI6MTc0MjAyNTk4NH0.McD9FRbM6p_jEUBJjvbbJ2R4vavQGsJud_F90a_nOuM",
+    "type": "Bearer",
+    "id": 387,
+    "username": "satyapaliit@gmail.com",
+    "email": "satyapaliit@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-03-15 12:36:24 [main] INFO  com.api.listerner.TestListener - Test Passed!
+2025-03-15 12:36:24 [main] INFO  com.api.listerner.TestListener - Test Suite completed!
+2025-03-15 12:40:37 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 12:40:37 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 12:40:37 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 12:40:38 [main] INFO  com.api.filters.LoggingFilter - URL:http://64.227.160.186:8080/api/auth/
+2025-03-15 12:40:38 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:40:38 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+2025-03-15 12:40:38 [main] INFO  com.api.filters.LoggingFilter - 
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:40:38 [main] INFO  com.api.filters.LoggingFilter - Method:POST
+2025-03-15 12:40:38 [main] INFO  com.api.filters.LoggingFilter - 
+Payload
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:40:38 [main] INFO  com.api.filters.LoggingFilter - {"username":"Satyapaliit@gmail.com","password":"Satyapal@1"}
+2025-03-15 12:40:39 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+2025-03-15 12:40:39 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:40:39 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 15 Mar 2025 07:10:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-03-15 12:40:39 [main] INFO  com.api.filters.LoggingFilter - 
+Response
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:40:39 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXR5YXBhbGlpdEBnbWFpbC5jb20iLCJpYXQiOjE3NDIwMjI2MzksImV4cCI6MTc0MjAyNjIzOX0.0pN2PscO0WdbQnw3iwCuHyU4z4t7jcpPQhdVopeB7ec",
+    "type": "Bearer",
+    "id": 387,
+    "username": "satyapaliit@gmail.com",
+    "email": "satyapaliit@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-03-15 12:40:39 [main] INFO  com.api.listerner.TestListener - Test Passed!
+2025-03-15 12:40:39 [main] INFO  com.api.listerner.TestListener - Test Suite completed!
+2025-03-15 12:43:47 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 12:43:47 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 12:43:47 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 12:43:48 [main] INFO  com.api.filters.LoggingFilter - URI:http://64.227.160.186:8080/api/auth/login
+2025-03-15 12:43:48 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:43:48 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+2025-03-15 12:43:48 [main] INFO  com.api.filters.LoggingFilter - 
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:43:48 [main] INFO  com.api.filters.LoggingFilter - Method:POST
+2025-03-15 12:43:48 [main] INFO  com.api.filters.LoggingFilter - 
+Payload
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:43:48 [main] INFO  com.api.filters.LoggingFilter - {"username":"Satyapaliit@gmail.com","password":"Satyapal@1"}
+2025-03-15 12:43:49 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+2025-03-15 12:43:49 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:43:49 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 15 Mar 2025 07:13:49 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-03-15 12:43:49 [main] INFO  com.api.filters.LoggingFilter - 
+Response
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:43:49 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXR5YXBhbGlpdEBnbWFpbC5jb20iLCJpYXQiOjE3NDIwMjI4MjksImV4cCI6MTc0MjAyNjQyOX0.z1Dp-sfMwQ0vtBfKoK8DPKfVAd6vml-OrFDS-NwpMeg",
+    "type": "Bearer",
+    "id": 387,
+    "username": "satyapaliit@gmail.com",
+    "email": "satyapaliit@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-03-15 12:43:49 [main] INFO  com.api.listerner.TestListener - Test Passed!
+2025-03-15 12:43:49 [main] INFO  com.api.listerner.TestListener - Test Suite completed!
+2025-03-15 12:46:43 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 12:46:43 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 12:46:43 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 12:46:44 [main] INFO  com.api.filters.LoggingFilter - 
+Request
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:46:44 [main] INFO  com.api.filters.LoggingFilter - URI:http://64.227.160.186:8080/api/auth/login
+2025-03-15 12:46:44 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:46:44 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+2025-03-15 12:46:44 [main] INFO  com.api.filters.LoggingFilter - 
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:46:44 [main] INFO  com.api.filters.LoggingFilter - Method:POST
+2025-03-15 12:46:44 [main] INFO  com.api.filters.LoggingFilter - 
+Payload
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:46:44 [main] INFO  com.api.filters.LoggingFilter - {"username":"Satyapaliit@gmail.com","password":"Satyapal@1"}
+2025-03-15 12:46:45 [main] INFO  com.api.filters.LoggingFilter - 
+Response
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:46:45 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+2025-03-15 12:46:45 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:46:45 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 15 Mar 2025 07:16:45 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-03-15 12:46:45 [main] INFO  com.api.filters.LoggingFilter - 
+Response
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:46:45 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXR5YXBhbGlpdEBnbWFpbC5jb20iLCJpYXQiOjE3NDIwMjMwMDUsImV4cCI6MTc0MjAyNjYwNX0.0TRmBV1rA7nLUGVnX75nsDscmNCA322ZEhHKxPt9qEY",
+    "type": "Bearer",
+    "id": 387,
+    "username": "satyapaliit@gmail.com",
+    "email": "satyapaliit@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-03-15 12:46:45 [main] INFO  com.api.filters.LoggingFilter - 
+
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:46:45 [main] INFO  com.api.listerner.TestListener - Test Passed!
+2025-03-15 12:46:45 [main] INFO  com.api.listerner.TestListener - Test Suite completed!
+2025-03-15 12:48:19 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 12:48:19 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 12:48:19 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 12:48:20 [main] INFO  com.api.filters.LoggingFilter - 
+Request
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:48:20 [main] INFO  com.api.filters.LoggingFilter - URI:http://64.227.160.186:8080/api/auth/login
+2025-03-15 12:48:20 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+
+2025-03-15 12:48:20 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+2025-03-15 12:48:20 [main] INFO  com.api.filters.LoggingFilter - Method:POST
+2025-03-15 12:48:20 [main] INFO  com.api.filters.LoggingFilter - 
+Payload
+
+2025-03-15 12:48:20 [main] INFO  com.api.filters.LoggingFilter - {"username":"Satyapaliit@gmail.com","password":"Satyapal@1"}
+2025-03-15 12:48:21 [main] INFO  com.api.filters.LoggingFilter - 
+Response
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:48:21 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+2025-03-15 12:48:21 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+
+2025-03-15 12:48:21 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 15 Mar 2025 07:18:21 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-03-15 12:48:21 [main] INFO  com.api.filters.LoggingFilter - 
+Response
+
+2025-03-15 12:48:21 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXR5YXBhbGlpdEBnbWFpbC5jb20iLCJpYXQiOjE3NDIwMjMxMDEsImV4cCI6MTc0MjAyNjcwMX0.HHaxoMUSNK0XUEzYJkGPbFHLKGPA63_g0ZmRvNhRMWU",
+    "type": "Bearer",
+    "id": 387,
+    "username": "satyapaliit@gmail.com",
+    "email": "satyapaliit@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-03-15 12:48:21 [main] INFO  com.api.filters.LoggingFilter - 
+
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:48:21 [main] INFO  com.api.listerner.TestListener - Test Passed!
+2025-03-15 12:48:21 [main] INFO  com.api.listerner.TestListener - Test Suite completed!
+2025-03-15 12:53:40 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 12:53:40 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 12:53:40 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 12:53:41 [main] INFO  com.api.filters.LoggingFilter - 
+Request
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:53:41 [main] INFO  com.api.filters.LoggingFilter - URI:http://64.227.160.186:8080/api/auth/login
+2025-03-15 12:53:41 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+
+2025-03-15 12:53:41 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+2025-03-15 12:53:41 [main] INFO  com.api.filters.LoggingFilter - Method:POST
+2025-03-15 12:53:41 [main] INFO  com.api.filters.LoggingFilter - 
+Payload
+
+2025-03-15 12:53:41 [main] INFO  com.api.filters.LoggingFilter - {"username":"Satyapaliit@gmail.com","password":"Satyapal@1"}
+2025-03-15 12:53:42 [main] INFO  com.api.filters.LoggingFilter - 
+
+Response---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:53:42 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+2025-03-15 12:53:42 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+
+2025-03-15 12:53:42 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 15 Mar 2025 07:23:42 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-03-15 12:53:42 [main] INFO  com.api.filters.LoggingFilter - 
+Response Body
+
+2025-03-15 12:53:42 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXR5YXBhbGlpdEBnbWFpbC5jb20iLCJpYXQiOjE3NDIwMjM0MjIsImV4cCI6MTc0MjAyNzAyMn0.wUceCNhZG3g2QkaRpFZH7iZqIntvyc5J8DD_gnryGNo",
+    "type": "Bearer",
+    "id": 387,
+    "username": "satyapaliit@gmail.com",
+    "email": "satyapaliit@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-03-15 12:53:42 [main] INFO  com.api.filters.LoggingFilter - 
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:53:42 [main] INFO  com.api.listerner.TestListener - Test Passed!
+2025-03-15 12:53:42 [main] INFO  com.api.listerner.TestListener - Test Suite completed!
+2025-03-15 12:55:39 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 12:55:39 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 12:55:39 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 12:55:41 [main] INFO  com.api.filters.LoggingFilter - 
+Request
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:55:41 [main] INFO  com.api.filters.LoggingFilter - URI:http://64.227.160.186:8080/api/auth/login
+2025-03-15 12:55:41 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+
+2025-03-15 12:55:41 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+2025-03-15 12:55:41 [main] INFO  com.api.filters.LoggingFilter - Method:POST
+2025-03-15 12:55:41 [main] INFO  com.api.filters.LoggingFilter - 
+Payload
+
+2025-03-15 12:55:41 [main] INFO  com.api.filters.LoggingFilter - {"username":"Satyapaliit@gmail.com","password":"Satyapal@1"}
+2025-03-15 12:55:42 [main] INFO  com.api.filters.LoggingFilter - 
+
+Response---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:55:42 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+2025-03-15 12:55:42 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+
+2025-03-15 12:55:42 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 15 Mar 2025 07:25:42 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-03-15 12:55:42 [main] INFO  com.api.filters.LoggingFilter - 
+Response Body
+
+2025-03-15 12:55:42 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXR5YXBhbGlpdEBnbWFpbC5jb20iLCJpYXQiOjE3NDIwMjM1NDIsImV4cCI6MTc0MjAyNzE0Mn0.-Ki3Y8d-tUGVEr8DcztV9rTu9br8WkOHGEI4otCmkxo",
+    "type": "Bearer",
+    "id": 387,
+    "username": "satyapaliit@gmail.com",
+    "email": "satyapaliit@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-03-15 12:55:42 [main] INFO  com.api.filters.LoggingFilter - 
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 12:55:42 [main] INFO  com.api.listerner.TestListener - Test Passed!
+2025-03-15 12:55:42 [main] INFO  com.api.listerner.TestListener - Test Suite completed!
+2025-03-15 13:03:52 [main] INFO  com.api.listerner.TestListener - Test Suite started!
+2025-03-15 13:03:52 [main] INFO  com.api.listerner.TestListener - Started! loginTest
+2025-03-15 13:03:52 [main] INFO  com.api.listerner.TestListener - Description! Verify if Login API is Working
+2025-03-15 13:03:53 [main] INFO  com.api.filters.LoggingFilter - 
+Request
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 13:03:53 [main] INFO  com.api.filters.LoggingFilter - URI:http://64.227.160.186:8080/api/auth/login
+2025-03-15 13:03:53 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+
+2025-03-15 13:03:53 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+2025-03-15 13:03:53 [main] INFO  com.api.filters.LoggingFilter - Method:POST
+2025-03-15 13:03:53 [main] INFO  com.api.filters.LoggingFilter - 
+Payload
+
+2025-03-15 13:03:53 [main] INFO  com.api.filters.LoggingFilter - {"username":"Satyapaliit@gmail.com","password":"Satyapal@1"}
+2025-03-15 13:03:54 [main] INFO  com.api.filters.LoggingFilter - 
+
+Response---------------------------------------------------------------------------------------------------------------
+2025-03-15 13:03:54 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+2025-03-15 13:03:54 [main] INFO  com.api.filters.LoggingFilter - 
+Headers
+
+2025-03-15 13:03:54 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 15 Mar 2025 07:33:54 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2025-03-15 13:03:54 [main] INFO  com.api.filters.LoggingFilter - 
+Response Body
+
+2025-03-15 13:03:54 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYXR5YXBhbGlpdEBnbWFpbC5jb20iLCJpYXQiOjE3NDIwMjQwMzQsImV4cCI6MTc0MjAyNzYzNH0.9NUWKp70T9Vm5psx2NHjUcjPwYmBEQzo9y_zLDAJn_0",
+    "type": "Bearer",
+    "id": 387,
+    "username": "satyapaliit@gmail.com",
+    "email": "satyapaliit@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-03-15 13:03:54 [main] INFO  com.api.filters.LoggingFilter - 
+---------------------------------------------------------------------------------------------------------------
+2025-03-15 13:03:54 [main] INFO  com.api.listerner.TestListener - Test Passed!
+2025-03-15 13:03:54 [main] INFO  com.api.listerner.TestListener - Test Suite completed!

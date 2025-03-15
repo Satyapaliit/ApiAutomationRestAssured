@@ -26,6 +26,7 @@ public class GetProfileAPITest {
 		
 		UserManagementProfileService uerManagementProfileService=new UserManagementProfileService();
 		Response profileResponse= uerManagementProfileService.getProfile(loginResponse.getToken());
+		System.out.println(profileResponse.asPrettyString());
 		UserProfileResponse userProfileResponse=profileResponse.as(UserProfileResponse.class);
 		System.out.println(userProfileResponse.getEmail());
 		Assert.assertEquals(profileResponse.statusCode(), 200);
